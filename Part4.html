@@ -1,0 +1,15 @@
+<script>
+
+function esPalindromo(palabra) {
+  
+  let palabraMinusculas = palabra.toLowerCase();
+  
+  let palabraRevertida = palabraMinusculas.split('').reverse().join('');
+  
+  return palabraMinusculas === palabraRevertida;
+}
+
+console.log(esPalindromo("reconocer"));  
+console.log(esPalindromo("hola"));      
+
+</script>

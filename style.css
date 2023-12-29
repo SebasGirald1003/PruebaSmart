@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgb(88, 223, 233);
+}
+
+h1{
+    border: 5px solid black;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    background-color: rgb(95, 149, 229);
+}
+
+p{
+    border: 5px solid black;
+    margin: 50px;
+    background-color: rgb(95, 149, 229);
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+li{
+    background-color: rgb(226, 43, 128);
+    border: 5px solid black;
+    margin: 20px;
+    font-weight: 600;
+}
